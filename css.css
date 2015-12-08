@@ -1,0 +1,45 @@
+.progress-bar{
+	text-align:center;
+	width:100%;
+	letter-spacing:20;
+	font-size:18pt;
+	font-weight:800;
+}
+
+#progress-bar-list li{
+	cursor:pointer;
+	padding-left:16px;
+	display:inline-block;
+	border:2px solid;
+	border-radius:25px;
+	border-color:#999;
+}
+
+.actualNumber{
+	color:blue;
+}
+
+.list-container{
+	overflow:hidden;
+	text-align:center;
+	height:350px;
+	width:50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+#content-list li{
+	height:350px;
+	display:block;
+}
+.submit{
+	cursor:pointer;
+	width:15%;
+	margin-top:50px;
+	margin-left: auto;
+  	margin-right: auto;
+	font-size:16pt;
+}
+.completed{
+	color:red;
+}
